@@ -1,17 +1,12 @@
-/* Colori vari
-dark blue: #3a546d
-darker blue: #2c3e50
-aqua green: #1abc9c */
-
 /* utils */
 * {
     border: 2px dashed black;
 }
 
 /* header */
-header {
+/* header {
     height: 80px;
-}
+} */
 
 /* section */
 section {
@@ -24,4 +19,15 @@ form {
 
 [class^="col"] {
     min-height: 50px;
+}
+
+
+/* 
+----------------------
+Classi personalizzate 
+---------------------- 
+*/
+
+.bg-dark-blue {
+    background-color: #2C3E50;
 }
