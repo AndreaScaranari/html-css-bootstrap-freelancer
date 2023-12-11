@@ -1,56 +1,27 @@
-/* Generics */
-body * {
-    border: 1px dashed purple;
+/* Colori vari
+dark blue: #3a546d
+darker blue: #2c3e50
+aqua green: #1abc9c */
+
+/* utils */
+* {
+    border: 2px dashed black;
 }
 
 /* header */
 header {
-    height: 150px;
-    background-color: #2C3E50;
+    height: 80px;
 }
 
-header div {
-    background-color: white;
-    height: 40%;
+/* section */
+section {
+    min-height: 500px;
 }
 
-/* jumbotron */
-#jumbotron {
-    background-color: #1ABC9C;
-    height: 600px;
+form {
+    min-height: 350px;
 }
 
-/* portfolio */
-.h2 {
-    background-color: #2C3E50;
-    height: 40px;
-    width: 50%;
-    margin: 0 auto;
-}
-
-#portfolio .col {
-    background-color: #BA4B63;
-    height: 100px;
-}
-
-/* about */
-#about {
-    background-color: #1ABC9C;
-    height: 600px;
-}
-
-/* contact me */
-#contact-me {
-    height: 600px;
-}
-
-/* footer > address */
-footer address {
-    height: 600px;
-    background-color: #3A546D;
-}
-
-footer .copyright {
-    height: 150px;
-    background-color: #2C3E50;
+[class^="col"] {
+    min-height: 50px;
 }
